@@ -1,7 +1,7 @@
 #importa as bibliotecas
 import streamlit as st
 import pandas as pd
-import webbrowser
+import webbrowser #biblioteca que permite incluir links para abrir externamente
 
 #Configura detalhes da página
 st.set_page_config(
@@ -69,4 +69,5 @@ st.markdown('')
 st.markdown('''¹ [https://especiais.ne10.uol.com.br/coleta-seletiva/](https://especiais.ne10.uol.com.br/coleta-seletiva/)''')
 st.markdown('''² [http://dados.recife.pe.gov.br/dataset/destinacao-de-residuos-solidos](http://dados.recife.pe.gov.br/dataset/destinacao-de-residuos-solidos)''')
 
+#Escreve na sidebar (barra lateral esquerda)
 st.sidebar.markdown('Desevolvido por Anicely Santos para o [Coda.Br 2023](https://escoladedados.org/coda/coda2023/)')
